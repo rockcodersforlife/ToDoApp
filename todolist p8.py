@@ -33,7 +33,7 @@ def todo_list_app():
 
     while True:
         display_menu()
-        choice = input("Enter your choice (1-4): ")
+        choice = input("Input your choice (1-4): ")
 
         if choice == '1':
             view_todo_list(todo_list)
